@@ -2,7 +2,7 @@
 
 Utilizando a SDK Java, é possível realizar as integrações necessárias com o marketplace do Grupo Netshoes de forma ágil e simples.
 
-##Configuração das informações de acesso.
+##Configuração das Informações de Acesso.
 
 Antes de utilizar os recursos da API, é necessário realizar as configurações de base path e também as credenciais para acesso.
 Abaixo segue o código de exemplo:
@@ -47,7 +47,7 @@ A seguir, será apresentada a API e exemplos com as as principais operações do Ma
 
 ###Product Template API
 
-Contém os recursos utilizados para auxílio na configuração dos produtos que serão enciados ao marketplace.
+Contém os recursos utilizados para auxílio na configuração dos produtos que serão enviados ao marketplace.
 
 ####Lista de Departamentos
 ```java
@@ -216,7 +216,7 @@ try {
 
 ###SKUs API
 
-Contém os recursos utilizados para checagem de SKUs relacionados aos produtos submetidos ao marketplace.
+Contém os recursos utilizados para checagem de SKUs relacionados aos produtos enviados ao marketplace.
 
 ####Verificação do Status de Sincronização Com o Marketplace
 
@@ -233,8 +233,8 @@ try {
 }
 ```
 
-Isso indica que seus produtos já podem ser comercializados no portal de venda.
-Mas antes, é necessário realizar os procedimentos de atualização de estoque, preço e status, conforme exibido nos exemploas abaixo:
+Isso indica que seus produtos já podem ser comercializados nos portais de venda.
+Mas antes, é necessário realizar os procedimentos de atualização de estoque, preço e status, conforme exibido nos exemplos abaixo:
 
 ####Configuração de Estoque
 
